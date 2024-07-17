@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #111;
+  color: white;
+}
+
+.container {
+  width: 40%;
+  margin: 60px auto;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: purple;
+  border: 2px solid purple;
+  border-radius: 5px;
+}
+
+.search-input {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input {
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+.btn {
+  background-color: aquamarine;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.btn:hover {
+  background-color: hsla(160, 100%, 75%, 0.8);
+}
+
+.icon {
+  font-size: 50px;
+}
+
+.search-result {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.other-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 30px;
+}
+
+.temp h1 {
+  font-size: 50px;
+}
+
+.loc h5 {
+  font-size: 20px;
+}
+
+.humidity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.wind-speed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.hum-icon,
+.wind-icon {
+  font-size: 25px;
+}
+
+.hum-value,
+.wind-value {
+  font-size: 25px;
+}
